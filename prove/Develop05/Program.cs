@@ -133,7 +133,7 @@ class Program
         {
             int pointsEarned = _goals[index].RecordEvent();
             _totalPoints += pointsEarned;
-            UpdateXPBar();
+            UpdateXPBar();  // for stretch activity
             Console.WriteLine($"Goal recorded, you earned {pointsEarned} points.");
         }
         else
@@ -224,7 +224,7 @@ class Program
             }
         }
 
-        Console.WriteLine("Goals loaded");
+        Console.WriteLine("Goals loaded.");
     }
 
     static void Main(string[] args)
