@@ -1,0 +1,4 @@
+43
+SimpleGoal|Run a 5k|Complete a 5 kilometer race|15|False
+EternalGoal|Read Scriptures|Complete personal scripture study|3|False
+ChecklistGoal|Do Chore for a Week|Sweep a room of the house|5|6|25|5
