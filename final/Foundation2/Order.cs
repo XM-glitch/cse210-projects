@@ -24,6 +24,14 @@ public class Order
         {
             total += product.GetTotalPrice();
         }
+        if(_customer.IsInUSA())
+        {
+            total += 5;
+        }
+        else
+        {
+            total += 35;
+        }
         return total;
     }
 
