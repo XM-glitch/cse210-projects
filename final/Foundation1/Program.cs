@@ -86,6 +86,7 @@ class Program
         video4.AddComment(comment11);
         video4.AddComment(comment12);
 
+        Console.Clear();
         program.DisplayVideos();
     }
 }
